@@ -1,6 +1,6 @@
 version: '2'
 services:
   ansible-test:
-    image: eugenmayer/ansible:test
+    image: eugenmayer/docker-image-ansible
     build:
       context: ./
